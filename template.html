@@ -2,17 +2,48 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="github-markdown.min.css" />
+    <link rel="stylesheet" href="atom-one-dark-reasonable.min.css" />
+    <link rel="stylesheet" href="" />
+    <script src="highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
     <meta name="generator" content="pandoc" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0, user-scalable=yes"
     />
-    <title>$pagetitle$</title>
+    <title>データ構造とアルゴリズム演習課題 - $pagetitle$</title>
     <!--[if lt IE 9]>
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
     <![endif]-->
+    <style>
+      .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+      }
+
+      @media (max-width: 767px) {
+        .markdown-body {
+          padding: 15px;
+        }
+      }
+      pre.sourceCode {
+        background: #282c34;
+      }
+    </style>
   </head>
   <body>
-    $body$
+    <article class="markdown-body">$body$</article>
+    <footer>
+      <!-- <li>
+        このページは学内からのみ閲覧可能である．学外から閲覧する場合は VPN
+        を使用せよ．
+      </ul> -->
+    </footer>
   </body>
 </html>
